@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daasuu.bl.BubbleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:bl_arrowDirection="bottom"
+    app:bl_arrowHeight="12dp"
+    app:bl_arrowPosition="0dp"
+    app:bl_arrowWidth="10dp"
+    app:bl_bubbleColor="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_normal"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:text="LONDON.BAKER ST" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:tint="@color/colorPrimary"
+            app:srcCompat="@drawable/ic_angle_arrow_pointing_to_right" />
+
+    </LinearLayout>
+</com.daasuu.bl.BubbleLayout>
