@@ -19,5 +19,5 @@
     <string name="permission_denied_explanation">Permission was denied, but is needed for core
         functionality.</string>
     <!--TODO: add Yours-->
-    <string name="google_maps_key">AIzaSyBbmqya3u46lE4c7baUQPCAQC-euaee_Pw</string>
+    <string name="google_maps_key"></string>
 </resources>
